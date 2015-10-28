@@ -1,15 +1,11 @@
 
-public abstract class Mammal
+public abstract class Mammal extends Animal
 	{
-		public abstract int bearsYoung();
-		public abstract int findPerimeter();
-		protected int base;
-		protected int height;
-		public Shape(int b, int h)
-			{
-				base=b;
-				height=h;
+		public void bearsYoung()
+		{
+			System.out.println("Ooo, a cute little mammal baby!");
+		}
 				
-			}
+			
 		
 	}
