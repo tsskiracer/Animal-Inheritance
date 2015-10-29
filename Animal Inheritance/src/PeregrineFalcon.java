@@ -2,17 +2,12 @@
 public class PeregrineFalcon extends Bird
 	{
 		
-		public PeregrineFalcon(String n, String s, String f)
+		public PeregrineFalcon()
 			{
-				n = "Perigrine Falcon";
-				s = "Screech";
-				f = "Birds";
+				name = "Peregrine Falcon";
+				sound = "Screech";
+				food = "Birds";
 			}
 
-		@Override
-		public String makesSound()
-			{
-				// TODO Auto-generated method stub
-				return null;
-			}
+	
 	}

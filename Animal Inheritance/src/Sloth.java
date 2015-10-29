@@ -1,5 +1,12 @@
 
 public class Sloth extends Mammal
 	{
-		public abstract String makesSound();
+	
+	public Sloth()
+	{
+		
+		name = "Sloth";
+		sound = "Ahh-ee";
+		food = "Leaves";
+	}
 	}

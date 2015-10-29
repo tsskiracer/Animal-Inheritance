@@ -1,5 +1,10 @@
 
 public class Kiwi extends Bird
 	{
-		protected String noise;
+	public Kiwi()
+	{
+		name = "Kiwi";
+		sound = "Brrrrrit";
+		food = "Worms";
+	}
 	}
